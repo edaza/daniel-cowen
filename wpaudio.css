@@ -1,0 +1,101 @@
+/* @override 
+	http://edaza.dyndns.org:8888/wordpress/wp-content/themes/danielcowen/wpaudio.css
+	http://www.danielcowen.com/wp-content/themes/danielcowen/wpaudio.css
+*/
+
+.wpaudio-container {
+		display: block !important;
+		*display: inline !important;
+		zoom: none !important;
+}
+.wpaudio-container .wpaudio {
+			font-family: KnockoutHTF33JuniorHeviwtRegu !important;
+			font-size: 1em !important ;
+			font-weight: ;
+			letter-spacing: ;
+}
+.wpaudio-play {
+			margin: 0 5px 0 0;
+			width: 14px;
+			height: 13px;
+			background: #ccc;
+			vertical-align: baseline
+}
+
+/*---- -bar / slide ------*/
+.wpaudio-slide {
+		display: block !important;
+			width:  40% !important;
+	margin-top: 1% !important;
+}
+.wpaudio-bar {
+			position: relative !important;
+			height: 1px !important;
+			font-size: 1px !important;
+			background: _wpaudio.style.bar_base_bg;
+}
+.wpaudio-bar-playable {
+			position: absolute !important;
+			top: 0 !important;
+			left: 0 !important;
+			right: 100% ;
+			height: 2px !important;
+			z-index: 11;
+			background: _wpaudio.style.bar_load_bg
+}
+.wpaudio-bar-position {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 100%;
+			height: 2px !important;
+			z-index: 12;
+			background: _wpaudio.style.bar_position_bg
+}
+.wpaudio-bar-click {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			width: 100%;
+			height: 2px !important;
+			z-index: 13;
+			cursor: pointer
+}
+
+
+.wpaudio-meta {
+			margin: 3px 0 0 19px !important;
+			font-size: 11px !important;
+}
+.wpaudio-download {
+			display: none !important;
+}
+
+
+img.wpaudio-play {
+		display: none !important;
+}
+/* Columns  I - J*/
+ #column_I_container.container .wpaudio-container a {
+	color: #323578 !important;
+	text-decoration: none;
+	line-height: 1em;
+}
+
+#column_J_container.container .wpaudio-container a {
+	color: #2B9BBC!important;
+	text-decoration: none;
+	line-height: 1em;
+	
+}
+#column_J_container.container .wpaudio-slide {
+		float: right !important;
+}
+#column_I_container.container .wpaudio-slide {
+		float: right !important;
+}
+.wpaudio-container a:visited {
+}
+.wpaudio-container a:hover {
+}

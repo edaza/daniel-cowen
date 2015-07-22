@@ -1,0 +1,92 @@
+/* @override 
+	http://72.229.177.70:8888/wordpress/wp-content/themes/danielcowen/scripts/flower_1_0/css/main.css
+*/
+
+a.flower_soundplayer {								/* add to an audio link for inline play */
+	
+} 
+span.flower_soundplayer_inlineplaypause{ 			/* the inserted play / pause text */
+	
+}
+
+div.flower_soundplayer_pageplayer{					/* added to a div for a page player */
+	
+} 
+
+
+div.flower_soundplayer {
+
+	
+}
+div.flower_soundplayer_ui {							/* everything before the playlist */
+	
+}
+div.flower_soundplayer_title {						/* current track title */
+	
+}
+div.flower_soundplayer_time {						/* current time / total time */
+	
+}
+div.flower_soundplayer_seekbarcontainer {
+
+}
+div.flower_soundplayer_seekbar {					/* loaded progress bar, clickable */
+
+}
+div.flower_soundplayer_positionmarker {				/* the little slidey dude */
+	
+}
+div.flower_soundplayer_controls {					/* the space containing the buttons */
+	
+}
+img.flower_soundplayer_prev {						/* previous button */
+	
+}
+img.flower_soundplayer_play {						/* play button */
+	
+}
+img.flower_soundplayer_next {						/* next button */
+	
+}
+ol.flower_soundplaylist {					/* the playlist of all the player's sound files */
+	
+}
+li.flower_soundplaylist_altli {						/* even numbered lis */
+	
+}
+
+
+/* =Custom Daniel Cowen
+-------------------------------------------------------------- */
+div#column_I_content .flower_soundplayer {
+	width: 100%;
+}
+div#column_I_content .flower_soundplayer_seekbarcontainer {
+	background-color: #323578 !important ;
+	height: 1px !important;
+}
+div#column_I_content .flower_soundplayer_seekbar {		/* loaded progress bar, clickable */
+	background-color: #19eb00 !important;
+	height: 1px !important;
+}
+div#column_I_content .flower_soundplayer_ui {			/* everything before the playlist */
+
+}
+div#column_I_content .flower_soundplaylist {
+  height: 2px !important;
+}
+
+div#column_J_content .flower_soundplayer {
+	width: 100%;
+}
+div#column_J_content .flower_soundplayer_seekbarcontainer {
+	background-color: #2B9BBC !important ;
+	height: 1px !important;
+}
+div#column_J_content .flower_soundplayer_seekbar {		/* loaded progress bar, clickable */
+	background-color: #19eb00 !important;
+	height: 1px !important;
+}
+div#column_J_content .flower_soundplayer_ui {			/* everything before the playlist */
+
+}
